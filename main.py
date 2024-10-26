@@ -7,12 +7,10 @@ achieved about 62% accuracy on the test data.
 import streamlit as st
 import cv2
 import torch
-import numpy as np
 from torchvision import transforms
 from PIL import Image
 from model_architecture import CLIPClassifier
 import time
-import base64
 
 st.set_page_config(page_title="Facial Emotion Recognition", layout="wide")
 
